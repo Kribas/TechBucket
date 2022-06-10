@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,600;1,300;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,400&family=Roboto:ital,wght@0,100;0,400;1,100;1,300;1,400&display=swap");
+.header {
+  padding: 20px 0px;
+  background: transparent;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.header .header__logo img {
+  width: 100px;
+  margin: 9px 0px;
+}
+
+.header .header__social ul {
+  margin-bottom: 0px;
+}
+
+.header .header__social ul li {
+  display: inline-block;
+  margin: 20px 10px;
+  color: #fff;
+  border: 1px solid #ff6e1c;
+  border-radius: 50%;
+  width: 30px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #ff6e1c;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+  padding-right: 20px;
+  color: #fff;
+}
+
+.header-scrolled {
+  background-color: #000;
+}
+
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat scroll 0 0/cover;
+  width: 100%;
+  height: 750px;
+}
+
+.banner .banner__contents {
+  padding-bottom: 125px;
+  padding-top: 258px;
+}
+
+.banner .banner__contents h1 {
+  color: #ff6e1c;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.banner .banner__contents p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.banner .banner__contents button {
+  background-color: #ff6e1c;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.what-we-do .what-we-do__title {
+  color: #ff6e1c;
+  margin: 45px 0px;
+}
+
+.what-we-do .what-we-do__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.what-we-do .what-we-do__body .body__card-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.what-we-do .what-we-do__body .body__card-1:hover .card__inner {
+  opacity: 1;
+}
+
+.what-we-do .what-we-do__body .body__card-1 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.what-we-do .what-we-do__body .body__card-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.what-we-do .what-we-do__body .body__card-2:hover .card__inner {
+  opacity: 1;
+}
+
+.what-we-do .what-we-do__body .body__card-2 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.what-we-do .what-we-do__body .body__card-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://st2.depositphotos.com/1004061/7948/i/600/depositphotos_79480642-stock-photo-modern-business-skyscrapers.jpg") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://st2.depositphotos.com/1004061/7948/i/600/depositphotos_79480642-stock-photo-modern-business-skyscrapers.jpg") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.what-we-do .what-we-do__body .body__card-3:hover .card__inner {
+  opacity: 1;
+}
+
+.what-we-do .what-we-do__body .body__card-3 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.who-we-are {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("https://thumbs.dreamstime.com/b/laptop-computer-banner-background-above-black-wood-37921311.jpg") no-repeat 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://thumbs.dreamstime.com/b/laptop-computer-banner-background-above-black-wood-37921311.jpg") no-repeat 0 0/cover;
+  width: 100%;
+  padding: 40px 10px;
+  margin: 45px 0px;
+}
+
+.who-we-are .who-we-are__title {
+  color: #ff6e1c;
+  padding-bottom: 20px;
+}
+
+.who-we-are .who-we-are__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.who-we-are .who-we-are__desc {
+  color: #fff;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.testimonials .testimonials__title {
+  color: #ff6e1c;
+  margin: 45px 0px;
+}
+
+.testimonials .testimonials__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.testimonials .testimonials__body {
+  color: #fff;
+}
+
+.testimonials .testimonials__body .testimonial {
+  border: 2px solid #ff6e1c;
+  background-color: #28282B;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.testimonials .testimonials__body .testimonial h6 {
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonials__body .testimonial p {
+  font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.testimonials .testimonials__body .testimonial .client__details .client__avatar {
+  padding-right: 10px;
+}
+
+.testimonials .testimonials__body .testimonial .client__details .client__avatar img {
+  width: 30px;
+}
+
+.testimonials .testimonials__body .testimonial .client__details .client__desc h6 {
+  margin-bottom: 0;
+}
+
+.news-and-videos .news .news__title {
+  color: #ff6e1c;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.news-and-videos .news .news__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.news-and-videos .news .news__title a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #ff6e1c;
+}
+
+.news-and-videos .news .news__links ul li {
+  list-style: none;
+  padding-bottom: 23px;
+}
+
+.news-and-videos .news .news__links ul li a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.news-and-videos .videos .videos__title {
+  color: #F17238;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.news-and-videos .videos .videos__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.news-and-videos .videos .videos__title a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #F17238;
+}
+
+.news-and-videos .videos .videos__body .video {
+  border: 2px solid #F17238;
+}
+
+.footer {
+  background-color: #28282B;
+  color: #ff6e1c;
+  padding: 80px 0px;
+  margin-top: 86px;
+}
+
+.footer .footer__location h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .footer__location p {
+  font-size: 15px;
+}
+
+.footer .footer__location p a {
+  color: #ff6e1c;
+}
+
+.footer .footer__navigation h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .footer__navigation p {
+  font-size: 15px;
+}
+
+.footer .footer__events h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .footer__events p {
+  font-size: 15px;
+}
+
+.footer .footer__review h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer .footer__review input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #ff6e1c;
+  border-radius: 10px;
+  color: #fff;
+  background: transparent;
+}
+
+.footer .footer__review input::-webkit-input-placeholder {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review input:-ms-input-placeholder {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review input::-ms-input-placeholder {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review input::placeholder {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review input:focus {
+  outline: none;
+}
+
+.footer .footer__review textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 125px;
+  background-color: #ff6e1c;
+  border: none;
+  border-radius: 10px;
+}
+
+.footer .footer__review textarea::-webkit-input-placeholder {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review textarea:-ms-input-placeholder {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review textarea::-ms-input-placeholder {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review textarea::placeholder {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review textarea:focus {
+  outline: none;
+}
+
+.footer .footer__review button {
+  background-color: #ff6e1c;
+  color: #000;
+  border: 1px solid #ff6e1c;
+  padding: 5px 20px;
+  border-radius: 6px;
+  margin-left: 36%;
+}
+
+.page-nav {
+  margin: 45px 0px;
+}
+
+.page-nav p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.page-nav p a {
+  color: #ff6e1c;
+}
+
+.it-hardware-and-appliances {
+  margin: 45px 0px;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__title {
+  color: #ff6e1c;
+  padding-bottom: 20px;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__desc {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body {
+  margin: 60px 0px;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-1:hover .card__inner {
+  opacity: 1;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-1 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-2:hover .card__inner {
+  opacity: 1;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-2 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://st2.depositphotos.com/1004061/7948/i/600/depositphotos_79480642-stock-photo-modern-business-skyscrapers.jpg") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://st2.depositphotos.com/1004061/7948/i/600/depositphotos_79480642-stock-photo-modern-business-skyscrapers.jpg") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-3:hover .card__inner {
+  opacity: 1;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-3 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.testimonials {
+  margin: 45px 0px;
+}
+
+.testimonials .testimonials__title {
+  color: #ff6e1c;
+}
+
+.testimonials .testimonials__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.testimonials .testimonials__body {
+  color: #fff;
+}
+
+.testimonials .testimonials__body .testimonial {
+  border: 2px solid #ff6e1c;
+  background-color: #28282B;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.testimonials .testimonials__body .testimonial h6 {
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonials__body .testimonial p {
+  font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.testimonials .testimonials__body .testimonial .client__details .client__avatar {
+  padding-right: 10px;
+}
+
+.testimonials .testimonials__body .testimonial .client__details .client__avatar img {
+  width: 30px;
+}
+
+.testimonials .testimonials__body .testimonial .client__details .client__desc h6 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: #28282B;
+  color: #ff6e1c;
+  padding: 80px 0px;
+  margin-top: 86px;
+}
+
+.footer .footer__location h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .footer__location p {
+  font-size: 15px;
+}
+
+.footer .footer__location p a {
+  color: #ff6e1c;
+}
+
+.footer .footer__navigation h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .footer__navigation p {
+  font-size: 15px;
+}
+
+.footer .footer__events h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .footer__events p {
+  font-size: 15px;
+}
+
+.footer .footer__review h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer .footer__review input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #ff6e1c;
+  border-radius: 10px;
+  color: #fff;
+  background: transparent;
+}
+
+.footer .footer__review input::-webkit-input-placeholder {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review input:-ms-input-placeholder {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review input::-ms-input-placeholder {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review input::placeholder {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review input:focus {
+  outline: none;
+}
+
+.footer .footer__review textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 125px;
+  background-color: #ff6e1c;
+  border: none;
+  border-radius: 10px;
+}
+
+.footer .footer__review textarea::-webkit-input-placeholder {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review textarea:-ms-input-placeholder {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review textarea::-ms-input-placeholder {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review textarea::placeholder {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.footer .footer__review textarea:focus {
+  outline: none;
+}
+
+.footer .footer__review button {
+  background-color: #ff6e1c;
+  color: #000;
+  border: 1px solid #ff6e1c;
+  padding: 5px 20px;
+  border-radius: 6px;
+  margin-left: 36%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149157312.jpg?w=360") no-repeat scroll 0 0/cover;
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
