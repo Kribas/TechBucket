@@ -20,6 +20,7 @@
         }
 
         .footer__navigation {
+            margin-left: 58px;
             h3 {
                 font-size: 19px;
                 font-weight: 700;
@@ -89,4 +90,12 @@
             }
             
         }
+
+        @media (max-width: 912px) {
+    
+            .footer__navigation {
+                margin-left: 0;
+            }
+        }
 }
+

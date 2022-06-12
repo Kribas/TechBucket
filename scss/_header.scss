@@ -1,5 +1,4 @@
 
-
 .header {    
     padding: 20px 0px;
     background: transparent;
@@ -7,6 +6,13 @@
     z-index: 999;
     width: 100%;
     transition: all 0.5s;
+
+    .header__navbar {
+        margin-left: 40px;
+        .navbar-toggler {
+            background-color: white;
+        }
+    }
 
 
     .header__logo {
@@ -40,6 +46,42 @@
         color: #fff;
     }
 
+    
+
+    
+
+    @media (max-width: 912px) {
+        .header__social {
+            display: none;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .header__navbar {
+            margin-left: 0;
+        }
+    }
+
+    @media (width: 820px) {
+        .header__navbar {
+            margin-left: 250px;
+
+        }
+    }
+
+    @media (width: 768px) {
+        .header__navbar {
+            margin-left: 250px;
+
+        }
+    }
+
+    @media (width: 912px) {
+        .header__navbar {
+            margin-left: 250px;
+
+        }
+    }
     
 
     
