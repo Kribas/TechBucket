@@ -12,6 +12,14 @@
 @import './hardwareAppliancesPage/page-nav';
 @import './hardwareAppliancesPage/it-hardware-and-appliances';
 
+
+@import './products/brand-categories';
+@import './products//products';
+
+@import './productDetails/services-counseling';
+@import './productDetails/product-detail';
+
+
 // @import './hardwareAppliancesPage/testimonials';
 // @import './hardwareAppliancesPage/footer';
 
@@ -25,7 +33,9 @@
 
 body {
     overflow-x: hidden;
-    background: url('https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149157312.jpg?w=360') no-repeat scroll 0 0 / cover;
+    // background: url('https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149157312.jpg?w=360') no-repeat scroll 0 0 / cover;
+    background-color: #000;
+    
     font-family: 'Montserrat', sans-serif;
 
 }

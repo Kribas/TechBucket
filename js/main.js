@@ -9,6 +9,15 @@
             $(".header").removeClass("header-scrolled");
         }
     });
+
+    document.getElementById("productDetailPage").onclick = function () {
+        location.href = '../pages/product-details.html'
+    };
+
+    
+    
 })()
+
+
 
 

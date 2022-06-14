@@ -211,23 +211,35 @@
   width: 100%;
   padding: 40px 10px;
   margin: 45px 0px;
+  cursor: pointer;
 }
 
-.who-we-are .who-we-are__title {
+.who-we-are a {
+  color: #fff;
+}
+
+.who-we-are a .who-we-are__title {
   color: #ff6e1c;
   padding-bottom: 20px;
 }
 
-.who-we-are .who-we-are__title h3 {
+.who-we-are a .who-we-are__title h3 {
   font-size: 35px;
   font-weight: 700;
 }
 
-.who-we-are .who-we-are__desc {
+.who-we-are a .who-we-are__desc {
   color: #fff;
   font-size: 20px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.who-we-are:hover {
+  -webkit-transition: all 0.3s cubic-bezier(0.15, 0.69, 0.83, 0.67);
+  transition: all 0.3s cubic-bezier(0.15, 0.69, 0.83, 0.67);
+  -webkit-box-shadow: 0px 0px 12px #ff6e1c;
+          box-shadow: 0px 0px 12px #ff6e1c;
 }
 
 .testimonials .testimonials__title {
@@ -632,6 +644,188 @@
   transition: all 0.3s ease-in-out;
 }
 
+.brand-categories .brand-categories__body .brand {
+  margin-right: 30px;
+}
+
+.brand-categories .brand-categories__body .brand form label {
+  color: #ff6e1c;
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.brand-categories .brand-categories__body .brand form select {
+  padding: 5px 50px;
+  background-color: grey;
+  border-radius: 8px;
+}
+
+.brand-categories .brand-categories__body .brand form select option {
+  background-color: #fff;
+}
+
+.brand-categories .brand-categories__body .categories form label {
+  color: #ff6e1c;
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.brand-categories .brand-categories__body .categories form select {
+  padding: 5px 50px;
+  background-color: grey;
+  border-radius: 8px;
+}
+
+.brand-categories .brand-categories__body .categories form select option {
+  background-color: #fff;
+}
+
+.products {
+  margin: 45px 0px;
+}
+
+.products .products__row .product {
+  background-color: #000;
+  margin: 28px 20px;
+}
+
+.products .products__row .product img {
+  width: 100%;
+  padding: 0px 80px;
+}
+
+.products .products__row .product p {
+  padding-left: 20px;
+  color: #ff6e1c;
+  text-align: start;
+  font-size: 20px;
+}
+
+.products .products__row .product button {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  background-color: #28282b;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 10px;
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.products .products__row .product button:hover {
+  background-color: #ff6e1c;
+  color: #000;
+}
+
+.products .products__row .product:hover {
+  -webkit-transition: all 0.3s cubic-bezier(0.15, 0.69, 0.83, 0.67);
+  transition: all 0.3s cubic-bezier(0.15, 0.69, 0.83, 0.67);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: 0px 0px 12px #ff6e1c;
+          box-shadow: 0px 0px 12px #ff6e1c;
+}
+
+@media (max-width: 900px) {
+  .products .products__row .product img {
+    padding: 0px 40px;
+  }
+}
+
+.services-counseling .services a {
+  color: #fff;
+  padding: 5px 50px;
+  background-color: #28282b;
+  border-radius: 8px;
+  margin-right: 80px;
+}
+
+.services-counseling .counseling a {
+  color: #fff;
+  padding: 5px 50px;
+  background-color: #28282b;
+  border-radius: 8px;
+}
+
+.product-detail {
+  margin: 55px 0px;
+}
+
+.product-detail .product-detail__right h2 {
+  color: #ff6e1c;
+}
+
+.product-detail .product-detail__right p {
+  color: #fff;
+}
+
+.product-detail .product-detail__right .specification-details {
+  margin: 40px 0px;
+}
+
+.product-detail .product-detail__right .specification-details .nav .nav-item .nav-link {
+  color: #fff;
+  background: transparent;
+  position: relative;
+}
+
+.product-detail .product-detail__right .specification-details .nav .nav-item .nav-link::after {
+  content: "";
+  background: #ff6e1c;
+  height: 2px;
+  position: absolute;
+  width: 50%;
+  left: 35px;
+  bottom: -1px;
+}
+
+.product-detail .product-detail__right .specification-details .tab-content .tab-pane p {
+  color: #fff;
+}
+
+.product-detail .product-detail__right .specification-details .tab-content .tab-pane ul li {
+  color: #fff;
+}
+
+.product-detail .row-smallImg:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.product-detail .expandedImg-container {
+  position: relative;
+  border: 2px solid #ff6e1c;
+  border-radius: 8px;
+}
+
+.product-detail .expandedImg-container #imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.product-detail .column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin: 30px 0px;
+}
+
+.product-detail .column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.product-detail .column img:hover {
+  opacity: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -641,7 +835,7 @@
 
 body {
   overflow-x: hidden;
-  background: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149157312.jpg?w=360") no-repeat scroll 0 0/cover;
+  background-color: #000;
   font-family: 'Montserrat', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
