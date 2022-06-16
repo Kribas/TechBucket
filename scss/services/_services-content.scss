@@ -1,0 +1,21 @@
+.service-details {
+    .service__title {
+        margin: 45px 0px;
+            h3 {
+                color: #ff6e1c;
+                font-weight: 700;
+            }
+    }
+
+    .service__desc {
+        .date {
+            color: #ff6e1c;
+            margin: 20px 0px;
+        }
+
+        .service__detail {
+            color: #fff;
+            text-align: justify;
+        }
+    }
+}

@@ -19,6 +19,9 @@
 @import './productDetails/services-counseling';
 @import './productDetails/product-detail';
 
+@import './services/services';
+@import './services/services-content';
+
 
 // @import './hardwareAppliancesPage/testimonials';
 // @import './hardwareAppliancesPage/footer';
@@ -33,7 +36,6 @@
 
 body {
     overflow-x: hidden;
-    // background: url('https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149157312.jpg?w=360') no-repeat scroll 0 0 / cover;
     background-color: #000;
     
     font-family: 'Montserrat', sans-serif;

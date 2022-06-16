@@ -118,12 +118,14 @@
   font-weight: 700;
 }
 
-.what-we-do .what-we-do__body .body__card-1 {
+.what-we-do .what-we-do__body .closing-container {
+  overflow: hidden;
+  border: 2px solid #ff6e1c;
+}
+
+.what-we-do .what-we-do__body .closing-container .body__card-1 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") no-repeat scroll 0 0/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
-  width: 100%;
-  height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,13 +135,22 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  height: 40vh;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.what-we-do .what-we-do__body .body__card-1:hover .card__inner {
+.what-we-do .what-we-do__body .closing-container .body__card-1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.what-we-do .what-we-do__body .closing-container .body__card-1:hover .card__inner {
   opacity: 1;
 }
 
-.what-we-do .what-we-do__body .body__card-1 .card__inner {
+.what-we-do .what-we-do__body .closing-container .body__card-1 .card__inner {
   color: #fff;
   text-align: center;
   opacity: 0;
@@ -147,10 +158,18 @@
   transition: all 0.3s ease-in-out;
 }
 
-.what-we-do .what-we-do__body .body__card-2 {
+.what-we-do .what-we-do__body .closing-container .body__card-1 .card__inner h2 {
+  font-size: 18px;
+}
+
+.what-we-do .what-we-do__body .closing-container {
+  overflow: hidden;
+  border: 2px solid #ff6e1c;
+}
+
+.what-we-do .what-we-do__body .closing-container .body__card-2 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
   width: 100%;
   height: 40vh;
   display: -webkit-box;
@@ -162,13 +181,20 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.what-we-do .what-we-do__body .body__card-2:hover .card__inner {
+.what-we-do .what-we-do__body .closing-container .body__card-2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.what-we-do .what-we-do__body .closing-container .body__card-2:hover .card__inner {
   opacity: 1;
 }
 
-.what-we-do .what-we-do__body .body__card-2 .card__inner {
+.what-we-do .what-we-do__body .closing-container .body__card-2 .card__inner {
   color: #fff;
   text-align: center;
   opacity: 0;
@@ -176,10 +202,18 @@
   transition: all 0.3s ease-in-out;
 }
 
-.what-we-do .what-we-do__body .body__card-3 {
+.what-we-do .what-we-do__body .closing-container .body__card-2 .card__inner h2 {
+  font-size: 18px;
+}
+
+.what-we-do .what-we-do__body .closing-container {
+  overflow: hidden;
+  border: 2px solid #ff6e1c;
+}
+
+.what-we-do .what-we-do__body .closing-container .body__card-3 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://st2.depositphotos.com/1004061/7948/i/600/depositphotos_79480642-stock-photo-modern-business-skyscrapers.jpg") no-repeat scroll 0 0/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://st2.depositphotos.com/1004061/7948/i/600/depositphotos_79480642-stock-photo-modern-business-skyscrapers.jpg") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
   width: 100%;
   height: 40vh;
   display: -webkit-box;
@@ -191,18 +225,29 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.what-we-do .what-we-do__body .body__card-3:hover .card__inner {
+.what-we-do .what-we-do__body .closing-container .body__card-3:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.what-we-do .what-we-do__body .closing-container .body__card-3:hover .card__inner {
   opacity: 1;
 }
 
-.what-we-do .what-we-do__body .body__card-3 .card__inner {
+.what-we-do .what-we-do__body .closing-container .body__card-3 .card__inner {
   color: #fff;
   text-align: center;
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.what-we-do .what-we-do__body .closing-container .body__card-3 .card__inner h2 {
+  font-size: 18px;
 }
 
 .who-we-are {
@@ -403,7 +448,6 @@
   width: 100%;
   margin-bottom: 20px;
   border: 2px solid #ff6e1c;
-  border-radius: 10px;
   color: #fff;
   background: transparent;
 }
@@ -442,7 +486,6 @@
   height: 125px;
   background-color: #ff6e1c;
   border: none;
-  border-radius: 10px;
 }
 
 .footer .footer__review textarea::-webkit-input-placeholder {
@@ -478,7 +521,6 @@
   color: #000;
   border: 1px solid #ff6e1c;
   padding: 5px 20px;
-  border-radius: 6px;
   margin-left: 36%;
 }
 
@@ -557,10 +599,14 @@
   margin: 60px 0px;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-1 {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container {
+  border: 2px solid #ff6e1c;
+  overflow: hidden;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-1 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") no-repeat scroll 0 0/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
   width: 100%;
   height: 40vh;
   display: -webkit-box;
@@ -572,13 +618,20 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-1:hover .card__inner {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-1:hover .card__inner {
   opacity: 1;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-1 .card__inner {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-1 .card__inner {
   color: #fff;
   text-align: center;
   opacity: 0;
@@ -586,10 +639,14 @@
   transition: all 0.3s ease-in-out;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-2 {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container {
+  border: 2px solid #ff6e1c;
+  overflow: hidden;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-2 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
   width: 100%;
   height: 40vh;
   display: -webkit-box;
@@ -601,13 +658,20 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-2:hover .card__inner {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-2:hover .card__inner {
   opacity: 1;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-2 .card__inner {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-2 .card__inner {
   color: #fff;
   text-align: center;
   opacity: 0;
@@ -615,10 +679,14 @@
   transition: all 0.3s ease-in-out;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-3 {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container {
+  border: 2px solid #ff6e1c;
+  overflow: hidden;
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-3 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://st2.depositphotos.com/1004061/7948/i/600/depositphotos_79480642-stock-photo-modern-business-skyscrapers.jpg") no-repeat scroll 0 0/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://st2.depositphotos.com/1004061/7948/i/600/depositphotos_79480642-stock-photo-modern-business-skyscrapers.jpg") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
   width: 100%;
   height: 40vh;
   display: -webkit-box;
@@ -630,13 +698,20 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-3:hover .card__inner {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-3:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-3:hover .card__inner {
   opacity: 1;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body .body__card-3 .card__inner {
+.it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-3 .card__inner {
   color: #fff;
   text-align: center;
   opacity: 0;
@@ -824,6 +899,223 @@
 
 .product-detail .column img:hover {
   opacity: 1;
+}
+
+.services .services__title h3 {
+  color: #ff6e1c;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.services .services__body .body__card-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  margin: 25px 0px;
+}
+
+.services .services__body .body__card-1:hover .card__inner {
+  opacity: 1;
+}
+
+.services .services__body .body__card-1 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .services__body .body__card-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  margin: 25px 0px;
+}
+
+.services .services__body .body__card-2:hover .card__inner {
+  opacity: 1;
+}
+
+.services .services__body .body__card-2 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .services__body .body__card-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.services .services__body .body__card-3:hover .card__inner {
+  opacity: 1;
+}
+
+.services .services__body .body__card-3 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .services__body .body__card-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.services .services__body .body__card-4:hover .card__inner {
+  opacity: 1;
+}
+
+.services .services__body .body__card-4 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .services__body .body__card-5 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.services .services__body .body__card-5:hover .card__inner {
+  opacity: 1;
+}
+
+.services .services__body .body__card-5 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .services__body .body__card-6 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+  border: 2px solid #ff6e1c;
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.services .services__body .body__card-6:hover .card__inner {
+  opacity: 1;
+}
+
+.services .services__body .body__card-6 .card__inner {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-details .service__title {
+  margin: 45px 0px;
+}
+
+.service-details .service__title h3 {
+  color: #ff6e1c;
+  font-weight: 700;
+}
+
+.service-details .service__desc .date {
+  color: #ff6e1c;
+  margin: 20px 0px;
+}
+
+.service-details .service__desc .service__detail {
+  color: #fff;
+  text-align: justify;
 }
 
 * {
