@@ -1,6 +1,6 @@
 .service-details {
     .service__title {
-        margin: 45px 0px;
+        margin-bottom: 30px;
             h3 {
                 color: #ff6e1c;
                 font-weight: 700;
@@ -16,6 +16,12 @@
         .service__detail {
             color: #fff;
             text-align: justify;
+
+                
         }
+    }
+
+    .service__video {
+        margin: 45px 0px;
     }
 }

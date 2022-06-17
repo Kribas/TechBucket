@@ -11,6 +11,7 @@
 
 .header .header__navbar {
   margin-left: 40px;
+  position: relative;
 }
 
 .header .header__navbar .navbar-toggler {
@@ -121,6 +122,7 @@
 .what-we-do .what-we-do__body .closing-container {
   overflow: hidden;
   border: 2px solid #ff6e1c;
+  margin: 20px 0px;
 }
 
 .what-we-do .what-we-do__body .closing-container .body__card-1 {
@@ -165,6 +167,7 @@
 .what-we-do .what-we-do__body .closing-container {
   overflow: hidden;
   border: 2px solid #ff6e1c;
+  margin: 20px 0px;
 }
 
 .what-we-do .what-we-do__body .closing-container .body__card-2 {
@@ -454,30 +457,30 @@
 
 .footer .footer__review input::-webkit-input-placeholder {
   color: #fff;
-  padding: 10px 20px;
   font-size: 12px;
 }
 
 .footer .footer__review input:-ms-input-placeholder {
   color: #fff;
-  padding: 10px 20px;
   font-size: 12px;
 }
 
 .footer .footer__review input::-ms-input-placeholder {
   color: #fff;
-  padding: 10px 20px;
   font-size: 12px;
 }
 
 .footer .footer__review input::placeholder {
   color: #fff;
-  padding: 10px 20px;
   font-size: 12px;
 }
 
 .footer .footer__review input:focus {
   outline: none;
+}
+
+.footer .footer__review input[type=text] {
+  padding-left: 10px;
 }
 
 .footer .footer__review textarea {
@@ -490,30 +493,34 @@
 
 .footer .footer__review textarea::-webkit-input-placeholder {
   color: #000;
-  padding: 10px 20px;
   font-size: 12px;
+  padding-top: 5px;
 }
 
 .footer .footer__review textarea:-ms-input-placeholder {
   color: #000;
-  padding: 10px 20px;
   font-size: 12px;
+  padding-top: 5px;
 }
 
 .footer .footer__review textarea::-ms-input-placeholder {
   color: #000;
-  padding: 10px 20px;
   font-size: 12px;
+  padding-top: 5px;
 }
 
 .footer .footer__review textarea::placeholder {
   color: #000;
-  padding: 10px 20px;
   font-size: 12px;
+  padding-top: 5px;
 }
 
 .footer .footer__review textarea:focus {
   outline: none;
+}
+
+.footer .footer__review textarea[type=text] {
+  padding-left: 10px;
 }
 
 .footer .footer__review button {
@@ -924,7 +931,7 @@
           justify-content: center;
   color: #fff;
   cursor: pointer;
-  margin: 25px 0px;
+  margin-top: 25px;
 }
 
 .services .services__body .body__card-1:hover .card__inner {
@@ -1100,7 +1107,7 @@
 }
 
 .service-details .service__title {
-  margin: 45px 0px;
+  margin-bottom: 30px;
 }
 
 .service-details .service__title h3 {
@@ -1114,6 +1121,24 @@
 }
 
 .service-details .service__desc .service__detail {
+  color: #fff;
+  text-align: justify;
+}
+
+.service-details .service__video {
+  margin: 45px 0px;
+}
+
+.consulting-details .consulting__title h3 {
+  color: #ff6e1c;
+  font-weight: 700;
+}
+
+.consulting-details .consulting__diagram {
+  margin: 40px 0px;
+}
+
+.consulting-details .consulting__desc {
   color: #fff;
   text-align: justify;
 }
