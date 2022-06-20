@@ -1,6 +1,5 @@
 (function() {
 
-    "use strict";
 
     $(window).on("scroll", function() {
         if($(window).scrollTop() > 50) {
@@ -14,9 +13,12 @@
         location.href = '../pages/product-details.html'
     };
 
-    
+   
+
     
 })()
+
+
 
 
 

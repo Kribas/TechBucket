@@ -44,33 +44,9 @@
   color: #fff;
 }
 
-@media (max-width: 912px) {
+@media (max-width: 1200px) {
   .header .header__social {
     display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .header .header__navbar {
-    margin-left: 0;
-  }
-}
-
-@media (width: 820px) {
-  .header .header__navbar {
-    margin-left: 250px;
-  }
-}
-
-@media (width: 768px) {
-  .header .header__navbar {
-    margin-left: 250px;
-  }
-}
-
-@media (width: 912px) {
-  .header .header__navbar {
-    margin-left: 250px;
   }
 }
 
@@ -739,6 +715,7 @@
 
 .brand-categories .brand-categories__body .brand form select {
   padding: 5px 50px;
+  width: 100%;
   background-color: grey;
   border-radius: 8px;
 }
@@ -757,11 +734,27 @@
 .brand-categories .brand-categories__body .categories form select {
   padding: 5px 50px;
   background-color: grey;
+  width: 100%;
   border-radius: 8px;
 }
 
 .brand-categories .brand-categories__body .categories form select option {
   background-color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .brand-categories .brand-categories__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .brand-categories .brand-categories__body .brand form select {
+    width: 100%;
+  }
+  .brand-categories .brand-categories__body .categores form select {
+    width: 100%;
+  }
 }
 
 .products {
@@ -811,7 +804,7 @@
           box-shadow: 0px 0px 12px #ff6e1c;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 912px) {
   .products .products__row .product img {
     padding: 0px 40px;
   }
@@ -1141,6 +1134,117 @@
 .consulting-details .consulting__desc {
   color: #fff;
   text-align: justify;
+}
+
+.our-projects .our-projects__title h3 {
+  color: #ff6e1c;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.our-projects .our-projects__body .web-and-application {
+  margin: 160px 0px;
+}
+
+.our-projects .our-projects__body .web-and-application .web-and-application__left {
+  margin-top: 15%;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.our-projects .our-projects__body .web-and-application .web-and-application__left h1 {
+  color: #ff6e1c;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.our-projects .our-projects__body .web-and-application .web-and-application__left p {
+  color: #fff;
+  text-align: justify;
+}
+
+.our-projects .our-projects__body .web-and-application .web-and-application__right a img {
+  height: 500px;
+}
+
+.our-projects .our-projects__body .ui-design {
+  margin: 160px 0px;
+}
+
+.our-projects .our-projects__body .ui-design .ui-design__left {
+  margin-right: 40px;
+}
+
+.our-projects .our-projects__body .ui-design .ui-design__left a img {
+  height: 500px;
+}
+
+.our-projects .our-projects__body .ui-design .ui-design__right {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.our-projects .our-projects__body .ui-design .ui-design__right h1 {
+  color: #ff6e1c;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.our-projects .our-projects__body .ui-design .ui-design__right p {
+  color: #fff;
+  text-align: justify;
+}
+
+.our-projects .our-projects__body .social-media {
+  margin: 160px 0px;
+}
+
+.our-projects .our-projects__body .social-media .social-media__left {
+  margin-top: 15%;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.our-projects .our-projects__body .social-media .social-media__left h1 {
+  color: #ff6e1c;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.our-projects .our-projects__body .social-media .social-media__left p {
+  color: #fff;
+  text-align: justify;
+}
+
+.our-projects .our-projects__body .social-media .social-media__right a img {
+  height: 500px;
+}
+
+.web-and-application .web-and-application__title h3 {
+  color: #ff6e1c;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.web-and-application .web-and-application__body .project-container .project-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.web-and-application .web-and-application__body .project-container .project-item .project-info {
+  position: absolute;
+  background-color: #ff6e1c;
+  bottom: 0px;
+  z-index: 3;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  padding: 5px 20px;
+  width: 100%;
+  opacity: 0;
+}
+
+.web-and-application .web-and-application__body .project-container .project-item:hover .project-info {
+  opacity: 1;
 }
 
 * {
