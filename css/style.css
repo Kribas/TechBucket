@@ -236,23 +236,20 @@
   padding: 40px 10px;
   margin: 45px 0px;
   cursor: pointer;
-}
-
-.who-we-are a {
   color: #fff;
 }
 
-.who-we-are a .who-we-are__title {
+.who-we-are .who-we-are__title {
   color: #ff6e1c;
   padding-bottom: 20px;
 }
 
-.who-we-are a .who-we-are__title h3 {
+.who-we-are .who-we-are__title h3 {
   font-size: 35px;
   font-weight: 700;
 }
 
-.who-we-are a .who-we-are__desc {
+.who-we-are .who-we-are__desc {
   color: #fff;
   font-size: 20px;
   text-align: justify;
@@ -264,6 +261,25 @@
   transition: all 0.3s cubic-bezier(0.15, 0.69, 0.83, 0.67);
   -webkit-box-shadow: 0px 0px 12px #ff6e1c;
           box-shadow: 0px 0px 12px #ff6e1c;
+}
+
+.our-partners .our-partners__title {
+  color: #ff6e1c;
+  margin: 45px 0px;
+}
+
+.our-partners .our-partners__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.our-partners .our-partners__body {
+  background-color: #f7f8fa;
+  padding: 40px 0px;
+}
+
+.our-partners .our-partners__body .partner img {
+  width: 200px;
 }
 
 .testimonials .testimonials__title {
@@ -405,6 +421,16 @@
 }
 
 .footer .footer__navigation p {
+  font-size: 15px;
+}
+
+.footer .footer__our-partners h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .footer__our-partners p {
   font-size: 15px;
 }
 
@@ -904,6 +930,7 @@
 .services .services__title h3 {
   color: #ff6e1c;
   font-weight: 700;
+  font-size: 35px;
   margin-bottom: 45px;
 }
 
