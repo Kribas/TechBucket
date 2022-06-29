@@ -17,13 +17,12 @@
     ></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Document</title>
 </head>
 <body>
-
     <section class="header">
         <div class="container">
           <div class="row">
@@ -33,7 +32,7 @@
               </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="header__navbar mx-5">
+              <div class="header__navbar">
                 <nav class="navbar navbar-expand-lg">
                   <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,13 +47,13 @@
                           <a class="nav-link" href="../pages/services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="../pages/support.html">Support</a>
+                          <a class="nav-link" href="#">Support</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">Blogs</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link">About</a>
+                          <a href="#" class="nav-link">About</a>
                         </li>
                       </ul>
                     </div>
@@ -65,9 +64,9 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
               <div class="header__social text-end">
                 <ul>
-                  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                  <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                  <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                  <li><i class="fa-brands fa-facebook"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
+                  <li><i class="fa-brands fa-linkedin"></i></li>
 
                 </ul>
               </div>
@@ -87,46 +86,67 @@
         </div>
                 
       </section>
-
+  
       <section class="page-nav">
-          <div class="container">
-              <p><a class="text-decoration-none" href="../index.html">HOME > </a><a class="text-decoration-none" href="./design-and-development.html">DESIGN AND DEVELOPMENT</a></p>
-          </div>
-      </section>
-
-      <section class="consulting-details">
         <div class="container">
-            <div class="consulting__title">
-                <h3>CONSULTING</h3>
+            <p><a class="text-decoration-none" href="../index.html">HOME </a></p>
+        </div>
+    </section>
+
+    <section class="support">
+        <div class="container">
+            <div class="support__title">
+                <h3>SUPPORT</h3>
             </div>
-            <div class="consulting__diagram">
-                <img class="w-100" src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11367-019-01636-4/MediaObjects/11367_2019_1636_Fig1_HTML.png" alt="Diagram"/>
-            </div>
-            <div class="consulting__desc">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus sit a, eget enim, quis quam eget nunc egestas. Placerat elementum 
-                    aliquam tincidunt nunc. Tortor fusce fermentum dictum tincidunt facilisis amet. Auctor sed sed porta volutpat, consequat. Lorem ipsum 
-                    dolor sit amet, consectetur adipiscing elit. Luctus sit a, eget enim, quis quam eget nunc egestas. Placerat elementum aliquam tincidunt 
-                    nunc. Tortor fusce fermentum dictum tincidunt facilisis amet. Auctor sed sed porta volutpat, consequat. Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. Luctus sit a, eget enim, quis quam eget nunc egestas. Placerat elementum aliquam tincidunt nunc. Tortor 
-                    fusce fermentum dictum tincidunt facilisis amet. Auctor sed sed porta volutpat, consequat. Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Luctus sit a, eget enim, quis quam eget nunc egestas. Placerat elementum aliquam tincidunt nunc. Tortor fusce 
-                    fermentum dictum tincidunt facilisis amet. Auctor sed sed porta volutpat, consequat. Lorem ipsum dolor sit amet, consectetur adipiscing 
-                    elit. Luctus sit a, eget enim, quis quam eget nunc egestas. Placerat elementum aliquam tincidunt nunc. Tortor fusce fermentum dictum 
-                    tincidunt facilisis amet. Auctor sed sed porta volutpat, consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus sit a, 
-                    eget enim, quis quam eget nunc egestas. Placerat elementum aliquam tincidunt nunc. Tortor fusce fermentum dictum tincidunt facilisis 
-                    amet. Auctor sed sed porta volutpat, consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus sit a, eget enim, quis 
-                    quam eget nunc egestas. Placerat elementum aliquam tincidunt nunc. </p>
+            <div class="support__body">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="support__left">
+                            <form class="support__form">
+                                <label for="name">Name</label>
+                                <input placeholder="Name" type="text" id="name" name="name" value=""><br>
+                                <label for="company">Company</label>
+                                <input placeholder="Company Name" type="text" id="company" name="company" value=""><br>
+                                <label for="email">Email</label>
+                                <input placeholder="Email" type="email" id="email" name="email" value=""><br>
+                                <label for="name">Address</label>
+                                <input placeholder="Address" type="text" id="address" name="address" value=""><br>
+                                <label for="name">Issue</label>
+                                <select id="issue" name="issue">
+                                    <option>Applications</option>
+                                    <option>Network & Server</option>
+                                    <option>Hardware</option>
+                                </select><br>
+                                <textarea placeholder="Details" rows="5" id="details"></textarea>
+                                <button type="submit">SEND</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="support__right">
+                            <i class="fa-solid fa-headset"></i>
+                            <div class="support__details">
+                                <h1>CONTACT SUPPORT</h1>
+                                <h6>Email: support@techbucket.com.np</h6>
+                                <h6>Phone: +977 014443897</h6>
+                                <h6>Phone: +977 9801151658</h6>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-      </section>
+    </section>
 
-      <section class="footer">
+    <section class="footer">
         <div class="container">
           <div class="row d-flex justify-content-between">
             <div class="col-lg-2 col-md-6">
               <div class="footer__location">
                 <h3>TechBucket.Pvt.Ltd</h3>
-                <p>Thirbam sadak, Baluwatar,<br> Kathmandu, Nepal</p>
+                <p>Thirbam sadak, Baluwatar, Kathmandu, Nepal</p>
                 <p>Phone: +977 014443897</p>
                 <p><a class="text-decoration-none" href="https://www.techbucket.com.np/">www.techbucket.com.np</a></p>
               </div>
@@ -171,7 +191,9 @@
       </section>
 
 
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="../js/main.js"></script>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>

@@ -59,6 +59,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat scroll 0 0/cover;
   width: 100%;
   height: 750px;
+  margin-bottom: 80px;
 }
 
 .banner .banner__contents {
@@ -85,9 +86,13 @@
   border-radius: 5px;
 }
 
+.what-we-do {
+  margin-bottom: 80px;
+}
+
 .what-we-do .what-we-do__title {
   color: #ff6e1c;
-  margin: 45px 0px;
+  margin-bottom: 20px;
 }
 
 .what-we-do .what-we-do__title h3 {
@@ -234,14 +239,13 @@
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://thumbs.dreamstime.com/b/laptop-computer-banner-background-above-black-wood-37921311.jpg") no-repeat 0 0/cover;
   width: 100%;
   padding: 40px 10px;
-  margin: 45px 0px;
-  cursor: pointer;
+  margin-bottom: 80px;
   color: #fff;
 }
 
 .who-we-are .who-we-are__title {
   color: #ff6e1c;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .who-we-are .who-we-are__title h3 {
@@ -256,16 +260,13 @@
   text-justify: inter-word;
 }
 
-.who-we-are:hover {
-  -webkit-transition: all 0.3s cubic-bezier(0.15, 0.69, 0.83, 0.67);
-  transition: all 0.3s cubic-bezier(0.15, 0.69, 0.83, 0.67);
-  -webkit-box-shadow: 0px 0px 12px #ff6e1c;
-          box-shadow: 0px 0px 12px #ff6e1c;
+.our-partners {
+  margin-bottom: 80px;
 }
 
 .our-partners .our-partners__title {
   color: #ff6e1c;
-  margin: 45px 0px;
+  margin-bottom: 20px;
 }
 
 .our-partners .our-partners__title h3 {
@@ -282,9 +283,13 @@
   width: 200px;
 }
 
+.testimonials {
+  margin-bottom: 80px;
+}
+
 .testimonials .testimonials__title {
   color: #ff6e1c;
-  margin: 45px 0px;
+  margin-bottom: 30px;
 }
 
 .testimonials .testimonials__title h3 {
@@ -332,9 +337,12 @@
   font-weight: normal;
 }
 
+.news-and-videos {
+  margin-bottom: 80px;
+}
+
 .news-and-videos .news .news__title {
   color: #ff6e1c;
-  margin-top: 45px;
   margin-bottom: 20px;
 }
 
@@ -361,7 +369,6 @@
 
 .news-and-videos .videos .videos__title {
   color: #F17238;
-  margin-top: 45px;
   margin-bottom: 20px;
 }
 
@@ -393,7 +400,6 @@
   background-color: #28282B;
   color: #ff6e1c;
   padding: 80px 0px;
-  margin-top: 86px;
 }
 
 .footer .footer__location h3 {
@@ -445,7 +451,7 @@
 }
 
 .footer .footer__review h3 {
-  font-size: 30px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
@@ -570,7 +576,7 @@
 }
 
 .page-nav {
-  margin: 45px 0px;
+  margin-bottom: 45px;
 }
 
 .page-nav p {
@@ -583,12 +589,12 @@
 }
 
 .it-hardware-and-appliances {
-  margin: 45px 0px;
+  margin-bottom: 45px;
 }
 
 .it-hardware-and-appliances .it-hardware-and-appliances__title {
   color: #ff6e1c;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .it-hardware-and-appliances .it-hardware-and-appliances__title h3 {
@@ -604,13 +610,10 @@
   text-justify: inter-word;
 }
 
-.it-hardware-and-appliances .it-hardware-and-appliances__body {
-  margin: 60px 0px;
-}
-
 .it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container {
   border: 2px solid #ff6e1c;
   overflow: hidden;
+  margin-top: 30px;
 }
 
 .it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-1 {
@@ -651,6 +654,7 @@
 .it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container {
   border: 2px solid #ff6e1c;
   overflow: hidden;
+  margin-top: 30px;
 }
 
 .it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-2 {
@@ -691,6 +695,7 @@
 .it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container {
   border: 2px solid #ff6e1c;
   overflow: hidden;
+  margin-top: 30px;
 }
 
 .it-hardware-and-appliances .it-hardware-and-appliances__body .closing-container .body__card-3 {
@@ -934,196 +939,46 @@
   margin-bottom: 45px;
 }
 
-.services .services__body .body__card-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
-  width: 100%;
-  height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.services .services__body {
+  margin-bottom: 80px;
+}
+
+.services .services__body .body__card {
   color: #fff;
   cursor: pointer;
   margin-top: 25px;
+  position: relative;
 }
 
-.services .services__body .body__card-1:hover .card__inner {
-  opacity: 1;
-}
-
-.services .services__body .body__card-1 .card__inner {
-  color: #fff;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.services .services__body .body__card-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
+.services .services__body .body__card .gradient__image {
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   border: 2px solid #ff6e1c;
+}
+
+.services .services__body .body__card .gradient__image img {
+  position: relative;
   width: 100%;
   height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #fff;
-  cursor: pointer;
-  margin: 25px 0px;
+  z-index: -1;
+  display: block;
 }
 
-.services .services__body .body__card-2:hover .card__inner {
+.services .services__body .body__card:hover .card__inner {
   opacity: 1;
 }
 
-.services .services__body .body__card-2 .card__inner {
+.services .services__body .body__card .card__inner {
   color: #fff;
   text-align: center;
-  opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-
-.services .services__body .body__card-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
-  width: 100%;
-  height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #fff;
-  cursor: pointer;
-  margin-bottom: 25px;
-}
-
-.services .services__body .body__card-3:hover .card__inner {
-  opacity: 1;
-}
-
-.services .services__body .body__card-3 .card__inner {
-  color: #fff;
-  text-align: center;
+  position: absolute;
   opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.services .services__body .body__card-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
-  width: 100%;
-  height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #fff;
-  cursor: pointer;
-  margin-bottom: 25px;
-}
-
-.services .services__body .body__card-4:hover .card__inner {
-  opacity: 1;
-}
-
-.services .services__body .body__card-4 .card__inner {
-  color: #fff;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.services .services__body .body__card-5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
-  width: 100%;
-  height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  cursor: pointer;
-  color: #fff;
-  margin-bottom: 25px;
-}
-
-.services .services__body .body__card-5:hover .card__inner {
-  opacity: 1;
-}
-
-.services .services__body .body__card-5 .card__inner {
-  color: #fff;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.services .services__body .body__card-6 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id871030872?k=20&m=871030872&s=612x612&w=0&h=j4ojqBQ2uAUK9B_D3ZJ5MzPzxrP5fQCUhk0NpOqwGWw=") no-repeat scroll 0 0/cover;
-  border: 2px solid #ff6e1c;
-  width: 100%;
-  height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #fff;
-  cursor: pointer;
-  margin-bottom: 25px;
-}
-
-.services .services__body .body__card-6:hover .card__inner {
-  opacity: 1;
-}
-
-.services .services__body .body__card-6 .card__inner {
-  color: #fff;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  left: 0;
+  right: 0;
+  bottom: 44%;
 }
 
 .service-details .service__title {
@@ -1133,6 +988,7 @@
 .service-details .service__title h3 {
   color: #ff6e1c;
   font-weight: 700;
+  font-size: 35px;
 }
 
 .service-details .service__desc .date {
@@ -1143,15 +999,17 @@
 .service-details .service__desc .service__detail {
   color: #fff;
   text-align: justify;
+  margin-bottom: 80px;
 }
 
 .service-details .service__video {
-  margin: 45px 0px;
+  margin-bottom: 80px;
 }
 
 .consulting-details .consulting__title h3 {
   color: #ff6e1c;
   font-weight: 700;
+  font-size: 35px;
 }
 
 .consulting-details .consulting__diagram {
@@ -1161,89 +1019,94 @@
 .consulting-details .consulting__desc {
   color: #fff;
   text-align: justify;
+  margin-bottom: 80px;
 }
 
 .our-projects .our-projects__title h3 {
   color: #ff6e1c;
   font-weight: 700;
   margin-bottom: 45px;
+  font-size: 35px;
 }
 
-.our-projects .our-projects__body .web-and-application {
+.our-projects .our-projects__body a .web-and-application {
   margin: 160px 0px;
 }
 
-.our-projects .our-projects__body .web-and-application .web-and-application__left {
+.our-projects .our-projects__body a .web-and-application .web-and-application__left {
   margin-top: 15%;
   margin-right: 40px;
   text-align: center;
 }
 
-.our-projects .our-projects__body .web-and-application .web-and-application__left h1 {
+.our-projects .our-projects__body a .web-and-application .web-and-application__left h1 {
   color: #ff6e1c;
   font-weight: 700;
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
-.our-projects .our-projects__body .web-and-application .web-and-application__left p {
+.our-projects .our-projects__body a .web-and-application .web-and-application__left p {
   color: #fff;
   text-align: justify;
 }
 
-.our-projects .our-projects__body .web-and-application .web-and-application__right a img {
+.our-projects .our-projects__body a .web-and-application .web-and-application__right img {
   height: 500px;
 }
 
-.our-projects .our-projects__body .ui-design {
+.our-projects .our-projects__body a .ui-design {
   margin: 160px 0px;
 }
 
-.our-projects .our-projects__body .ui-design .ui-design__left {
+.our-projects .our-projects__body a .ui-design .ui-design__left {
   margin-right: 40px;
 }
 
-.our-projects .our-projects__body .ui-design .ui-design__left a img {
+.our-projects .our-projects__body a .ui-design .ui-design__left img {
   height: 500px;
 }
 
-.our-projects .our-projects__body .ui-design .ui-design__right {
+.our-projects .our-projects__body a .ui-design .ui-design__right {
   margin-top: 15%;
   text-align: center;
 }
 
-.our-projects .our-projects__body .ui-design .ui-design__right h1 {
+.our-projects .our-projects__body a .ui-design .ui-design__right h1 {
   color: #ff6e1c;
   font-weight: 700;
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
-.our-projects .our-projects__body .ui-design .ui-design__right p {
+.our-projects .our-projects__body a .ui-design .ui-design__right p {
   color: #fff;
   text-align: justify;
 }
 
-.our-projects .our-projects__body .social-media {
+.our-projects .our-projects__body a .social-media {
   margin: 160px 0px;
 }
 
-.our-projects .our-projects__body .social-media .social-media__left {
+.our-projects .our-projects__body a .social-media .social-media__left {
   margin-top: 15%;
   margin-right: 40px;
   text-align: center;
 }
 
-.our-projects .our-projects__body .social-media .social-media__left h1 {
+.our-projects .our-projects__body a .social-media .social-media__left h1 {
   color: #ff6e1c;
   font-weight: 700;
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
-.our-projects .our-projects__body .social-media .social-media__left p {
+.our-projects .our-projects__body a .social-media .social-media__left p {
   color: #fff;
   text-align: justify;
 }
 
-.our-projects .our-projects__body .social-media .social-media__right a img {
+.our-projects .our-projects__body a .social-media .social-media__right img {
   height: 500px;
 }
 
@@ -1322,6 +1185,97 @@
   color: #fff;
   text-align: justify;
   margin: 0px 30px;
+}
+
+.support .support__title h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ff6e1c;
+}
+
+.support .support__body .support__left {
+  margin: 45px 0px;
+}
+
+.support .support__body .support__left label {
+  color: #fff;
+  font-size: 18px;
+}
+
+.support .support__body .support__left input {
+  width: 360px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: 2px solid #ff6e1c;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+.support .support__body .support__left input:focus {
+  outline: none;
+}
+
+.support .support__body .support__left select {
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 10px;
+  border: 2px solid #ff6e1c;
+}
+
+.support .support__body .support__left select option {
+  color: #000;
+}
+
+.support .support__body .support__left select:focus {
+  outline: none;
+}
+
+.support .support__body .support__left textarea {
+  width: 520px;
+  height: 210px;
+  margin: 30px 0px;
+  padding: 10px 10px;
+  background: transparent;
+  border: 2px solid #ff6e1c;
+  color: #fff;
+}
+
+.support .support__body .support__left textarea:focus {
+  outline: none;
+}
+
+.support .support__body .support__left button {
+  background-color: #ff6e1c;
+  padding: 10px 30px;
+  border: none;
+}
+
+.support .support__body .support__right {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.support .support__body .support__right i {
+  font-size: 200px;
+  color: #ff6e1c;
+}
+
+.support .support__body .support__right .support__details {
+  margin: 60px 0px;
+}
+
+.support .support__body .support__right .support__details h1 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.support .support__body .support__right .support__details h6 {
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 * {
