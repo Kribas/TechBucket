@@ -1,0 +1,24 @@
+.web-and-application .page-nav p {
+    color: #ff6e1c;
+    margin: 45px 0px;
+    font-size: 20px;
+}
+
+.project-item .project-item__inner .project__info {
+    background-color: #ff6e1c;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+    padding: 5px 20px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-item__inner:hover .project__info {
+    opacity: 1;
+}
+
+.project-item__inner {
+    position: relative;
+}

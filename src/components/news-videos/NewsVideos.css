@@ -1,0 +1,19 @@
+.news__videos {
+    margin-bottom: 45px;
+}
+
+.news .news__title {
+    color: #ff6e1c;
+    margin-bottom: 20px;
+}
+
+.news__list ul li {
+    list-style: none;
+    color: #fff;
+    margin-bottom: 29px;
+}
+
+.videos .videos__title {
+    color: #ff6e1c;
+    margin-bottom: 20px;
+}

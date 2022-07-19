@@ -1,0 +1,20 @@
+.manage-enterprise-solutions .page-nav {
+    margin: 45px 0px;
+}
+
+.manage-enterprise-solutions .page-nav p {
+    color: #ff6e1c;
+    font-size: 25px;
+}
+
+.manage-enterprise-solutions__title h3 {
+    color: #ff6e1c;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.manage-enterprise-solutions__desc p {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 45px;
+}

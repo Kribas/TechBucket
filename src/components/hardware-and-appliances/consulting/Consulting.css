@@ -1,0 +1,17 @@
+.consulting .page-nav p {
+    color: #ff6e1c;
+    font-size: 25px;
+    margin: 45px 0px;
+}
+
+.consulting__title h3 {
+    color: #ff6e1c;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.consulting__desc p {
+    color: #fff;
+    margin: 45px 0px;
+    text-align: justify;
+}

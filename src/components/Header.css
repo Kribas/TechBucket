@@ -1,0 +1,45 @@
+.header {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding: 20px 0px;
+    transition: all 0.5s;
+}
+
+.header__black {
+    background-color: #000;
+}
+
+.header__logo img {
+    width: 100px;
+    margin: 8px 0px;
+}
+
+.header__navbar {
+    margin-left: 40px;
+}
+
+.header__navbar .navbar-nav .nav-item .nav-link {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.header__social {
+    margin: 20px 0px;
+    text-align: end;
+}
+
+.header__social ul li {
+             display: inline-block;
+                margin-right: 10px;
+                color: #fff;
+                border: 1px solid #ff6e1c;
+                border-radius: 50%;
+                width: 30px;
+                line-height: 25px;
+                text-align: center;
+                background-color: #ff6e1c;
+            }
+
+

@@ -1,0 +1,20 @@
+.hardware-and-appliances .page-nav {
+    margin: 45px 0px;
+}
+
+.hardware-and-appliances .page-nav p {
+    color: #ff6e1c;
+    font-size: 25px;
+}
+
+.hardware-and-appliances__title h3 {
+    color: #ff6e1c;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hardware-and-appliances__desc p {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 45px;
+}

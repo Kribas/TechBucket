@@ -1,0 +1,20 @@
+.design-and-development .page-nav {
+    margin: 45px 0px;
+}
+
+.design-and-development .page-nav p {
+    color: #ff6e1c;
+    font-size: 25px;
+}
+
+.design-and-development__title h3 {
+    color: #ff6e1c;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.design-and-development__desc p {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 45px;
+}

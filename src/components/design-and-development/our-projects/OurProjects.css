@@ -1,0 +1,81 @@
+.our-projects .page-nav p {
+    color: #ff6e1c;
+    font-size: 20px;
+    margin: 45px 0px;
+}
+
+.our-projects__title h3 {
+    color: #ff6e1c;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.our-projects__body  .top-row .web-and-application__left h3 {
+    color: #ff6e1c;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.web-and-application__left {
+    margin-top: 12%;    
+}
+
+.top-row {
+    margin: 60px 0px
+}
+
+.web-and-application__left {
+    margin-right: 30px;
+}
+
+.web-and-application__left p {
+    color: #fff;
+    text-align: justify;
+}
+
+.mid-row .ui-design__right h3 {
+    color: #ff6e1c;
+    font-size: 40px;
+    text-align: center;
+}
+
+.ui-design__right {
+    margin-top: 10%;
+}
+
+.mid-row {
+    margin-bottom: 60px;
+}
+
+.ui-design__right {
+    margin-left: 30px;
+
+}
+
+.ui-design__right p {
+    color: #fff;
+    text-align: justify;
+}
+
+.bottom-row .social-media__left h3 {
+    color: #ff6e1c;
+    font-size: 40px;
+    text-align: center;
+}
+
+.bottom-row {
+    margin-bottom: 145px;
+}
+
+.social-media__left p {
+    color: #ffff;
+    text-align: justify;
+}
+
+.social-media__left {
+    margin-right: 30px;
+    margin-top: 12%;
+}
+

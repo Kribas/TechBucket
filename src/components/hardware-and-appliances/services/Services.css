@@ -1,0 +1,16 @@
+.services .page__nav p {
+    color: #ff6e1c;
+    font-size: 25px;
+    margin: 45px 0px;
+}
+
+.services__title h3 {
+    color: #ff6e1c;
+    font-weight: 700;
+}
+
+.services__desc p {
+    color: #fff;
+    margin: 45px 0px;
+    text-align: justify;
+}

@@ -1,0 +1,47 @@
+.testimonials {
+    margin: 45px 0px;
+}
+
+.testimonials .testimonials__title h3 {
+    color: #ff6e1c;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.testimonials__body {
+    margin: 40px 0px;
+}
+
+.testimonial__card {
+    border: 2px solid #ff6e1c;
+    padding: 15px 20px;
+    background-color: #28282b;
+}
+
+.testimonial__card .testimonial__text {
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+.client__details .client__avatar img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.client__details {
+    align-items: center;
+}
+
+.client__desc h6 {
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.client__desc p {
+    color: #fff;
+    margin-bottom: 0px;
+}

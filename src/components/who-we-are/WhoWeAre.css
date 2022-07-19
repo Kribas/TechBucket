@@ -1,0 +1,29 @@
+.who-we-are {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://thumbs.dreamstime.com/b/laptop-computer-banner-background-above-black-wood-37921311.jpg");
+    margin: 45px 0px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.15,0.69,0.83,0.67);
+}
+
+.who-we-are:hover {
+    box-shadow: 0px 0px 12px #ff6e1c;
+}
+
+.who-we-are .who-we-are__inner {
+    padding: 40px 0px;
+}
+
+.who-we-are__inner .who-we-are__title h3 {
+    color: #ff6e1c;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.who-we-are__inner .who-we-are__desc p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.who-we-are__desc .see-more {
+    color: #ff6e1c;
+}
